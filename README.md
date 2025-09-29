@@ -1,9 +1,6 @@
-# CUDA-Grayscal_Converter
-This Python script converts uploaded images to grayscale using PyTorch with GPU (CUDA) acceleration. It auto-creates input/output folders, supports batch processing, applies the standard grayscale formula, shows side-by-side comparisons with Matplotlib, and lets users download all processed results as a ZIP file.
+# CUDA-Grayscale_Converter
 
-# CUDA Batch Grayscale Converter
-
-A high-performance batch image processing tool that converts multiple images to grayscale using CUDA acceleration via PyTorch.
+This project is a Google Colab–friendly Python script that converts uploaded images to grayscale using PyTorch with GPU acceleration (CUDA). It automatically sets up input and output directories, allows users to upload multiple images at once, and detects GPU availability to speed up the process. The script applies the standard grayscale formula (0.299 * R + 0.587 * G + 0.114 * B) to each image, saving the processed outputs to a dedicated folder. It also includes batch processing capabilities, a side-by-side visual comparison of original and converted images using Matplotlib, and the option to download all processed files as a ZIP package. Designed to be simple and fast, this tool is ideal for anyone looking to process large sets of images with GPU acceleration in a Colab or Jupyter environment.
 
 ## Quick Start (Google Colab)
 
